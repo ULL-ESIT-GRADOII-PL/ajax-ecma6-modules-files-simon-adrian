@@ -1,40 +1,18 @@
-# Práctica 2: Comma separated values (CSV) with AJAX
+#ETSII ULL Grado de Informatica
 
-## jQuery.get( url [, data ] [, success ] [, dataType ] )
-* url
-  * Type: String
-  * A string containing the URL to which the request is sent.
-* data
-  * Type: PlainObject or String
-  * A plain object or string that is sent to the server with the request.
-* success
-  * Type: Function( PlainObject data, String textStatus, jqXHR jqXHR )
-  * A callback function that is executed if the request succeeds. 
-    Required if `dataType` is provided, but you can use `null` or `jQuery.noop` as a placeholder.
-* dataType
-  * Type: String
-  * The type of data expected from the server. Default: Intelligent Guess (xml, json, script, text, html).
+#Práctica: LocalStorage-JQuery-Underscore-Expess-Sass-Heroku  
 
-## jQuery.get( [settings ] )
-* settings
-  * Type: PlainObject
-  * A set of key/value pairs that configure the Ajax request. 
-  * All properties except for `url` are optional. 
-  * A default can be set for any option with `$.ajaxSetup()`.
+#Comma Separated Values  [![Build Status](https://travis-ci.org/alu0100625066/localstorage-jquery-underscore-express-sass-heroku-simon-adrian.svg?branch=master)](https://travis-ci.org/alu0100625066/localstorage-jquery-underscore-express-sass-heroku-simon-adrian)
 
-This is a shorthand Ajax function, which is equivalent to:
+For more information look at:
 
-```javascript
-$.ajax({
-  url: url,
-  data: data,
-  success: success,
-  dataType: dataType
-});
-```
+* La sección *LocalStorage-JQuery-Underscore-Expess-Sass-Heroku  * de los [apuntes](https://casianorodriguezleon.gitbooks.io/pl1516/content/practicas/csv.html)
+* La [descripción de la práctica](https://campusvirtual.ull.es/1516/mod/page/view.php?id=189369)
 
-The success callback function is passed the returned data, which will be an XML root element, text string, JavaScript file, or JSON object, depending on the MIME type of the response. It is also passed the text status of the response.
+* Funcionando en [Heroku](https://csv-ajax.herokuapp.com/)
+* See also [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) at Wikipedia.
 
-# Heroku 
-https://cvsajax.herokuapp.com/
+Páginas de Autores:
 
+* [Adrián Mesa Jauber](http://alu0100614220.github.io)
+* [Simón Fuertes Sánchez](http://alu0100625066.github.io)
