@@ -8,6 +8,7 @@ const expressLayouts = require('express-ejs-layouts');
 app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/examples'));
+app.use(express.static(__dirname + '/tests'));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.use(expressLayouts);
