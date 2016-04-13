@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Test Conversor</title>
+    <link rel="stylesheet" media="all" href="mocha.css" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <div id="messages"></div>
+    <div id="fixtures"></div>
+    <script src="mocha.js"></script>
+    <script src="chai.js"></script>
+    <script src="blanket-min.js" data-cover-adapter="mocha-blanket.js" data-cover-flags="debug"></script>
+    <script src="../csv.js" data-cover></script>
+    <script>mocha.setup('tdd');</script>
+    <script type="text/javascript" src="tests.js"></script>
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>
