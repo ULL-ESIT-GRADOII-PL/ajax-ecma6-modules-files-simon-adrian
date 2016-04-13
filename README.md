@@ -1,12 +1,12 @@
 #ETSII ULL Grado de Informatica
 
-#Práctica: LocalStorage-JQuery-Underscore-Expess-Sass-Heroku  
+#Práctica: ajax-ecma6-modules-files  
 
 #Comma Separated Values  [![Build Status](https://travis-ci.org/alu0100625066/localstorage-jquery-underscore-express-sass-heroku-simon-adrian.svg?branch=master)](https://travis-ci.org/alu0100625066/localstorage-jquery-underscore-express-sass-heroku-simon-adrian)
 
 For more information look at:
 
-* La sección *LocalStorage-JQuery-Underscore-Expess-Sass-Heroku  * de los [apuntes](https://casianorodriguezleon.gitbooks.io/pl1516/content/practicas/csv.html)
+* La sección *ajax-ecma6-modules-files* de los [apuntes](https://casianorodriguezleon.gitbooks.io/pl1516/content/practicas/csv.html)
 * La [descripción de la práctica](https://campusvirtual.ull.es/1516/mod/page/view.php?id=189369)
 
 * Funcionando en [Heroku](https://csv-ajax.herokuapp.com/)
