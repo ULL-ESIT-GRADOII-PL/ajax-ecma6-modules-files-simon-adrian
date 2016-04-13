@@ -10,4 +10,15 @@ suite("CSV", function() {
       expect(result[1].items.toString()).to.equal("w,x,y,z");
     });
 
+    test("Deberia aceptar cadenas entre comillas", function() {
+      var original = 'a,b,c,"d,e,f"\nx,y,z';
+      var result = calculate(original);
+      expect(result[0].items.toString()).to.equal("a,b,c,d,e,f");
+    });
+    test("Deberia aceptar saltos de linea", function() {
+      var original = 'a,b,c,"d,e,f", \nx,y,z';
+      var result = calculate(original);
+      expect(result[0].items.toString()).to.equal("a,b,c,d,e,f,");
+    });
+
 });
